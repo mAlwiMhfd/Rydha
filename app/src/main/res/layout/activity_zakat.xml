@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rydha.id.rydha.Activity.ZakatActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Hitung zakat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil perhitungan"
+        app:layout_constraintHorizontal_bias="0.190"
+        android:id="@+id/textView4"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignStart="@+id/spinner" />
+    <EditText
+        android:id="@+id/formInput"
+        android:layout_width="305dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignStart="@+id/spinner" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori"
+        android:textSize="20dp"
+        app:layout_constraintHorizontal_bias="0.190"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/spinner"
+        android:layout_alignStart="@+id/spinner" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Zakat anda"
+        android:textColor="#7ba901"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/formInput"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="307dp"
+        android:layout_height="27dp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="283dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp" />
+
+</RelativeLayout>

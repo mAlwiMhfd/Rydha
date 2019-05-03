@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "846027571309",
+    "firebase_url": "https://cobarydha.firebaseio.com",
+    "project_id": "cobarydha",
+    "storage_bucket": "cobarydha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846027571309:android:e0b39fd65ebd8875",
+        "android_client_info": {
+          "package_name": "com.rydha.id.rydha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846027571309-qr922sfcbopsjtoh101epaekf4mccm7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rydha.id.rydha",
+            "certificate_hash": "57785f5cfce81164ca5cddee24d389268fcf60a2"
+          }
+        },
+        {
+          "client_id": "846027571309-dgqmj16t57kql6om8br4n7j2vq65rbes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE39XOCyCYv_qKnq2DpBL9NLcnSDFTdwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846027571309-dgqmj16t57kql6om8br4n7j2vq65rbes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
